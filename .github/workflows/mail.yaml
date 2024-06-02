@@ -24,9 +24,6 @@ jobs:
     - name: Build website
       run: npm run build
 
-    - name: Restart application
-      run: npm restart
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
