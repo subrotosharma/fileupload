@@ -24,9 +24,6 @@ jobs:
     - name: Build website
       run: npm run build
 
-    - name: Wait for application to be ready
-      run: sleep 10
-
     - name: Restart application
       run: npm restart
 
